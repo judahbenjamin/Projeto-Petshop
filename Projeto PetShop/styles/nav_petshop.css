@@ -2,11 +2,51 @@ body {
     background-color:#f3d643 ;
 } 
 
-.navbar {
+.Navbar {
     background-color: white;
-    padding: 12px;
+    display: flex;
+    padding: 30px;
+    font-family: sans-serif;
+    color: #f3d643;
 }
 
-.main_pet {
-    margin-top: 20px;
+.Navbar__Items {
+    display: flex;
+}
+
+.Navbar__Link {
+    padding-right: 12px;
+}
+
+.Navbar__Items--right {
+    margin-left: auto;
+}
+
+.Navbar__Link .link {
+    text-decoration: none;
+    background-color: #c36721;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.main_petshop {
+    display: flex;
+    margin-top: 100px;
+}
+
+.texto_principal {
+    margin-left: 75px;
+    padding: 45px;
+    margin-top: 75px;
+    color: black;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    font-size: 750px;
+}
+
+.imagem_principal_left {
+    margin-left: auto;
 }
