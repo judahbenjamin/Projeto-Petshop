@@ -56,8 +56,46 @@ body {
 
 .footer-pet {
     background-color: #c36721;
-    color: #fff;
-    padding: 20px;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-pet a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-pet p {
+    margin-bottom: 5px;
+}
+
+.footer-pet-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.footer-pet-div1, .footer-pet-div2, .footer-pet-div3, .footer-pet-div4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.footer-pet span {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-direitos {
+    width: calc(100% - 0px);
+    background-color: #073376;
+    padding: 10px;
+    margin: 0px;
     text-align: center;
-    margin-top: 50px;
 }
