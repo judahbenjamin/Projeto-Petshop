@@ -37,16 +37,27 @@ body {
     margin-top: 100px;
 }
 
-.texto_principal {
+.texto_principal h1 {
     margin-left: 75px;
     padding: 45px;
     margin-top: 75px;
     color: black;
     font-family: "DM Sans", sans-serif;
-    font-weight: 800;
-    font-size: 750px;
+    font-weight: 600;
+    font-size: 65px;
 }
 
-.imagem_principal_left {
-    margin-left: auto;
+.imagem_principal_left img {
+    margin-left: 100px;
+    height: 865px;
+    width: 800px;
+    margin-top: -95px;
+}
+
+.footer-pet {
+    background-color: #c36721;
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    margin-top: 50px;
 }
