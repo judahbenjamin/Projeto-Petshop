@@ -1,0 +1,42 @@
+body {
+    background-color:#f3d643 ;
+} 
+
+.Navbar {
+    background-color: white;
+    display: flex;
+    padding: 30px;
+    font-family: sans-serif;
+    color: #f3d643;
+}
+
+.Navbar__Items {
+    display: flex;
+}
+
+.Navbar_Link_Menu a {
+    font-size: 20px;
+    margin-left: 12px;
+    text-decoration: none;
+    color: #c36721;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.Navbar__Link {
+    padding-right: 12px;
+}
+
+.Navbar__Items--right {
+    margin-left: auto;
+}
+
+.Navbar__Link .link {
+    text-decoration: none;
+    background-color: #c36721;
+    padding: 15px;
+    border-radius: 10px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
