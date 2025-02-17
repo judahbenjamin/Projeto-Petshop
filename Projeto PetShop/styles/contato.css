@@ -40,3 +40,121 @@ body {
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
 }
+
+.titulo h1 {
+    margin: 35px;
+    font-size: 55px;
+}
+
+.form_contato .figure img {
+    margin-left: -30px;
+}
+
+.form_contato {
+    background-color: white;
+    margin: 35px;
+    width: 550px;
+    height: 830px;
+    margin-left: 1200px;
+    border-radius: 20px;
+}
+
+.form_contato .contato {
+    padding: 30px;
+}
+
+.contato .title {
+    font-size: 35px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+    color: #073376;
+}
+
+.dados .nome, .dados .email, .dados .assunto, .dados .mensagem {
+    color: black;
+    font-size: 24px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 550;
+    margin-top: 20px;
+}
+
+.nome .n input, .email .em input, .assunto .as input {
+    margin-top: 10px;
+    width: 485px;
+    height: 50px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e4e4e4;
+}
+
+.mensagem textarea {
+    margin-top: 10px;
+    width: 485px;
+    height: 200px;
+    border-radius: 10px;
+    border: none;
+    background-color: #e4e4e4;
+}
+
+.butt_enviar {
+    text-align: center;
+    margin-top: 25px;
+}
+
+.butt_enviar .enviar {
+    padding: 15px;
+    font-size: 20px;
+    background-color: #073376;
+    border-radius: 15px;
+    border: none;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.footer-pet {
+    margin-top: 500px;
+    background-color: #c36721;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-pet a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-pet p {
+    margin-bottom: 5px;
+}
+
+.footer-pet-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.footer-pet-div1, .footer-pet-div2, .footer-pet-div3, .footer-pet-div4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.footer-pet span {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-direitos {
+    width: calc(100% - 0px);
+    background-color: #073376;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
+}
