@@ -41,21 +41,77 @@ body {
     font-weight: 700;
 }
 
+.figure {
+    margin: 50px;
+}
 
 .figure .img_adocao img {
     width: 800px;
     border-radius: 35px;
-    margin: 160px;
+    margin: 110px;
+}
+
+.sombra {
+    background-color: #073376;
+    width: 800px;
+    height: 490px;
+    border-radius: 35px;
+    margin: 75px;
+}
+
+.sombra2 {
+    background-color: #29b2a0;
+    width: 600px;
+    height: 410px;
+    border-radius: 35px;
+    margin-left: 500px;
+    margin-top: -285px;
 }
 
 .posicao {
-    margin-left: 1100px;
-    margin-top: -500px;
+    margin-left: 1250px;
+    margin-top: -610px;
+}
+
+.titulo_adocao .titulo h1 {
+    color: #073376;
+    font-size: 60px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 800;
+}
+
+.texto p {
+    padding-top: 38px;
+    text-align: left;
+    margin-right: 60px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+}
+
+.saiba {
+    padding-top: 40px;
+    margin-left: 285px;
+    display: flex;
+}
+
+.saiba a .clique {
+    padding: 20px;
+    font-size: 30px;
+    width: 350px;
+    border-radius: 25px;
+    border: none;
+}
+
+.saiba a .clique span {
+    font-family: "DM Sans", sans-serif;
+    font-size: 40px;
+    font-weight: 650;
+    color: #073376;
 }
 
 
 .footer-pet {
-    margin-top: 600px;
+    margin-top: 235px;
     background-color: #c36721;
     color: white;
     height: auto;
