@@ -18,255 +18,336 @@
         <span>Voltar</span>
       </button>
     </a>
-  </div>   
+  </div>
 
   <main>
     <div class="titulo_principal">
       <h1>Preencha o formulário de adoção abaixo</h1>
     </div>
+    <div class="ajustar_formulario">
+      <form class="formulario_adocao">
 
-    <form class="formulario_adocao">
-      <div class="adocao">
         <div class="titulo_formulario">
           <h2>TERMO DE ADOÇÃO RESPONSÁVEL</h2>
         </div>
-      </div>
 
-      <div class="bloco1">
-        <label for="name_adot">Nome do Adotante:</label>
-        <input type="text" id="name_adot" name="name_adot">
+        <div class="bloco1">
+          <div class="name">
+            <label for="name_adot">Nome do Adotante:</label>
+            <input type="text" id="name_adot" name="name_adot">
+          </div>
 
-        <label for="end_resid">Endereço Residencial:</label>
-        <input type="text" id="end_resid" name="end_resid">
-        <div>
-          <label for="bairro">Bairro:</label>
-          <input type="text" id="bairro" name="bairro">
+          <div class="endereco">
+            <label for="end_resid">Endereço Residencial:</label>
+            <input type="text" id="end_resid" name="end_resid">
+          </div>
 
-          <label for="cidade">Cidade/Estado:</label>
-          <input type="text" id="cidade" name="cidade">
+          <div class="ajust">
+            <div class="bairro">
+              <label for="bairro">Bairro:</label>
+              <input type="text" id="bairro" name="bairro">
+            </div>
 
-          <label for="cep">CEP:</label>
-          <input type="text" id="cep" name="cep">
+            <div class="cidade">
+              <label for="cidade">Cidade/Estado:</label>
+              <input type="text" id="cidade" name="cidade">
+            </div>
+
+            <div class="cep">
+              <label for="cep">CEP:</label>
+              <input type="text" id="cep" name="cep">
+            </div>
+          </div>
+
+          <div class="parte4">
+            <div class="Cpf">
+              <label for="cpf">CPF:</label>
+              <input type="text" id="cpf" name="cpf">
+            </div> 
+  
+            <div class="Fone">
+              <label for="fone">Fone Celular:</label>
+              <input type="text" id="fone" name="fone">
+            </div>
+          </div>
+
         </div>
-        <label for="cpf">CPF:</label>
-        <input type="text" id="cpf" name="cpf">
 
-        <label for="fone">Fone Celular:</label>
-        <input type="text" id="fone" name="fone">
-      </div>
+        <div class="bloco2">
+          <div class="dois1">
+            <div class="n_animal">
+              <label for="nome_animal">Nome do Animal:</label>
+              <input type="text" id="nome_animal" name="nome_animal">
+            </div>
 
-      <div class="bloco2">
-        <div class="2_1">
-          <label for="nome_animal">Nome do Animal:</label>
-          <input type="text" id="nome_animal" name="nome_animal">
+            <div class="raca">
+              <label for="raca">Raça:</label>
+              <input type="text" id="raca" name="raca">
+            </div>
 
-          <label for="raca">Raça:</label>
-          <input type="text" id="raca" name="raca">
+            <div class="idade"> 
+              <label for="idade">IDADE:</label>
+              <input type="text" id="idade" name="idade">
+            </div>
+          </div>
 
-          <label for="idade">IDADE:</label>
-          <input type="text" id="idade" name="idade">
-        </div>
-
-        <div class="2_2">
-          <div class="especie">
-            <label>Espécie:</label>
-            <div class="especie-option">
-              <div class="especie1">
-                <label for="check-male">CANINA</label>
-                <input type="radio" name="especie" value="canina" id="check-male">
+          <div class="dois2">
+            <div class="especie">
+              <div class="n_especie">
+                <label for="especie">Espécie:</label>
               </div>
-              <div class="especie2">
-                <label for="check-male">FELINO</label>
-                <input type="radio" name="especie" value="felino" id="check-male">
+              <div class="especie-option">
+                <div class="space">
+                  <div class="especie1">
+                    <input type="radio" name="especie" value="canina" id="check-male">
+                    <label for="check-male">CANINA</label>
+                  </div>
+                  <div class="especie2">
+                    <input type="radio" name="especie" value="felino" id="check-male">
+                    <label for="check-male">FELINO</label>
+                  </div>
+                </div>
               </div>
               <div class="pelagem">
                 <label for="pelagem_cor">Cor da pelagem:</label>
                 <input type="text" name="pelagem_cor" id="pelagem_cor">
               </div>
             </div>
-          </div>
 
-          <div class="sexo">
-            <label>Sexo:</label>
-            <div class="genero-option">
-              <div class="genero1">
-                <label for="check-male">Macho</label>
-                <input type="radio" name="genero" value="macho" id="check-male">
+            <div class="sexo">
+              <div class="n_sexo">
+                <label for="sexo">Sexo:</label>
               </div>
-              <div class="genero2">
-                <label for="check-male">Fêmea</label>
-                <input type="radio" name="genero" value="femea" id="check-male">
-              </div>
-            </div>
-          </div>
-
-          <div class="vacinado">
-            <label>Vacinado?</label>
-            <div class="option">
-              <div class="option1">
-                <label for="check-male">Sim</label>
-                <input type="radio" name="option" value="sim" id="check-male">
-              </div>
-
-              <div class="option2">
-                <label for="check-male">Não</label>
-                <input type="radio" name="option" value="nao" id="check-male">
-              </div>
-
-              <div class="option3">
-                <label for="check-male">Sem informação</label>
-                <input type="radio" name="option" value="seminformacao" id="check-male">
+              <div class="genero-option">
+                <div class="gen">
+                  <div class="genero1">
+                    <input type="radio" name="genero" value="macho" id="check-male">
+                    <label for="check-male">Macho</label>
+                  </div>
+                  <div class="genero2">
+                    <input type="radio" name="genero" value="femea" id="check-male">
+                    <label for="check-male">Fêmea</label>
+                  </div>
+                </div>
               </div>
             </div>
-          </div>
 
-          <div class="raiva">
-            <div class="raiva_">
-              <label for="op_raiva">RAIVA</label>
-              <input type="radio" name="raiva" id="raiva">
+            <div class="vacinado">
+              <div class="n_vacina">
+                <label>Vacinado?</label>
+              </div>
+              <div class="option">
+                <div class="op">
+                  <div class="option1">
+                    <input type="radio" name="option" value="sim" id="check-male">
+                    <label for="check-male">Sim</label>
+                  </div>
+  
+                  <div class="option2">
+                    <input type="radio" name="option" value="nao" id="check-male">
+                    <label for="check-male">Não</label>
+                  </div>
+  
+                  <div class="option3">
+                    <input type="radio" name="option" value="seminformacao" id="check-male">
+                    <label for="check-male">Sem informação</label>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <div class="raiva">
+              <div class="raiva_">
+                <label for="op_raiva">RAIVA</label>
+                <input type="radio" name="raiva" id="raiva">
+              </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="bloco3">
-        <div class="3_1">
-          <div class="porte">
-            <label for="">Porte (Indicar somente caninos):</label>
-            <div class="options">
-              <div class="mini">
-                <label for="check-male">Mini</label>
-                <input type="radio" name="options" value="mini" id="check-male">
+        <div class="bloco3">
+          <div class="tres1">
+            <div class="porte">
+              <div id="n_porte">
+                <label for="">Porte (Indicar somente caninos):</label>
               </div>
+              <div class="options">
+                <div class="mini">
+                  <input type="radio" name="options" value="mini" id="check-male">
+                  <label for="check-male">Mini</label>
+                </div>
 
-              <div class="pequeno">
-                <label for="check-male">Pequeno</label>
-                <input type="radio" name="options" value="pequeno" id="check-male">
-              </div>
+                <div class="pequeno">
+                  <input type="radio" name="options" value="pequeno" id="check-male">
+                  <label for="check-male">Pequeno</label>
+                </div>
 
-              <div class="medio">
-                <label for="check-male">Medio</label>
-                <input type="radio" name="options" value="medio" id="check-male">
-              </div>
+                <div class="medio">
+                  <input type="radio" name="options" value="medio" id="check-male">
+                  <label for="check-male">Medio</label>
+                </div>
 
-              <div class="grande">
-                <label for="check-male">Grande</label>
-                <input type="radio" name="options" value="grande" id="check-male">
-              </div>
+                <div class="grande">
+                  <input type="radio" name="options" value="grande" id="check-male">
+                  <label for="check-male">Grande</label>
+                </div>
 
-              <div class="gigante">
-                <label for="check-male">Gigante</label>
-                <input type="radio" name="options" value="gigante" id="check-male">
-              </div>
-            </div>
-          </div>
-
-          <div class="3_2">
-            <div class="castrado">
-              <label for="">Castrado?</label>
-              <div class="opt">
-                <label for="">Sim</label>
-                <input type="radio" name="opt" value="sim">
-
-                <label for="">Não</label>
-                <input type="radio" name="opt" value="nao">
+                <div class="gigante">
+                  <input type="radio" name="options" value="gigante" id="check-male">
+                  <label for="check-male">Gigante</label>
+                </div>
               </div>
             </div>
 
-            <div class="vermifugado">
-              <label for="">Vermifugado nos últimos 3 meses?</label>
-              <div class="ops">
-                <label for="">Sim</label>
-                <input type="radio" name="ops" value="sim">
+            <div class="tres2">
+              <div class="castrado">
+                <div class="cast">
+                  <div id="castrado">
+                    <label for="">Castrado?</label>
+                  </div>
+                  <div class="opt">
+                    <div class="yn">
+                      <div class="s">
+                        <input type="radio" name="opt" value="sim">
+                        <label for="">Sim</label>
+                      </div>
+                      
+                      <div class="n">
+                        <input type="radio" name="opt" value="nao">
+                        <label for="">Não</label>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
 
-                <label for="">Não</label>
-                <input type="radio" name="ops" value="nao">
+              <div class="vermifugado">
+                <div id="vermf">
+                  <label for="">Vermifugado nos últimos 3 meses?</label>
+                </div>
+                <div class="ops">
+                  <div class="ajust_v">
+                    <div class="ss">
+                      <input type="radio" name="ops" value="sim">
+                      <label for="">Sim</label>
+                    </div>
+  
+                    <div class="nn">
+                      <input type="radio" name="ops" value="nao">
+                      <label for="">Não</label>
+                    </div>
+  
+                    <div class="si">
+                      <input type="radio" name="ops" value="seminformacao">
+                      <label for="">Sem informação</label>
+                    </div>
+                  </div>
 
-                <label for="">Sem informação</label>
-                <input type="radio" name="ops" value="seminformacao">
-
-                <div class="observacao">
-                  <label>Obs:</label>
-                  <input type="text">
+                  <div id="observacao">
+                    <div class="display">
+                      <div class="obs">
+                        <label>Obs:</label>
+                      </div>
+                      <input type="text">
+                    </div>
+                  </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-      </div>
 
-      <div class="bloco4">
-        <div class="4_1">
-          <label for="">Endereço onde ficará o animal:</label>
-          <div class="marcar">
-            <label for="">o mesmo acima</label>
-            <input type="radio">
+        <div class="bloco4">
+          <div class="quatro1">
+            <div id="end">
+              <label for="">Endereço onde ficará o animal:</label>
+            </div>
+            <div class="marcar">
+              <div class="msm">
+                <input type="radio">
+                <label for="">o mesmo acima</label>
+              </div>
 
-            <label for="">outro: Qual?</label>
-            <input type="radio">
+              <div class="out">
+                <input type="radio">
+                <label for="">outro: Qual?</label>
+                <input type="text">
+              </div>
+            </div>
+          </div>
+
+          <div class="email">
+            <label for="">E-mail do adotante:</label>
             <input type="text">
           </div>
         </div>
-      </div>
 
-      <div class="bloco5">
-        <div class="5_1">
-          <label for="">E-mail do adotante:</label>
-          <input type="text">
-        </div>
-      </div>
-
-      <div class="bloco6">
-        <div class="textao">
-          <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-            printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-            like Aldus PageMaker including versions of Lorem Ipsum.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-            printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-            like Aldus PageMaker including versions of Lorem Ipsum.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-            printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-            like Aldus PageMaker including versions of Lorem Ipsum.
-            Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown 
-            printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining 
-            essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software 
-            like Aldus PageMaker including versions of Lorem Ipsum.
-          </p>
-        </div>
-  
-        <div class="subtexto">
-          <p>Abandonar ou maltratar animais é crime. Pena: 3 meses a 1 ano de detenção e multa (Lei Federal 9605/98)</p>
-        </div>
-  
-        <div class="assinatura">
-          <input type="text">
-          <p>de</p>
-          <input type="text">
-          <p>de</p>
-          <input type="text" name="" id="">
-  
-          <div class="assinatura_doador">
-            <input type="text">
-            <label for="">Assinatura do Doador</label>
-  
-            <input type="text">
-            <label for="">Assinatura do Adotante</label>
+        <div class="bloco5">
+          <div class="textao">
+            <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+              centuries, but also the leap into electronic typesetting, remaining
+              essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+              Lorem Ipsum passages, and more recently with desktop publishing software
+              like Aldus PageMaker including versions of Lorem Ipsum.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+              centuries, but also the leap into electronic typesetting, remaining
+              essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+              Lorem Ipsum passages, and more recently with desktop publishing software
+              like Aldus PageMaker including versions of Lorem Ipsum.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+              centuries, but also the leap into electronic typesetting, remaining
+              essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+              Lorem Ipsum passages, and more recently with desktop publishing software
+              like Aldus PageMaker including versions of Lorem Ipsum.
+              Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the
+              industry's standard dummy text ever since the 1500s, when an unknown
+              printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five
+              centuries, but also the leap into electronic typesetting, remaining
+              essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing
+              Lorem Ipsum passages, and more recently with desktop publishing software
+              like Aldus PageMaker including versions of Lorem Ipsum.
+            </p>
           </div>
-  
-          <div class="cpf">
-            <label for="">CPF:</label>
+
+          <div class="subtexto">
+            <p>Abandonar ou maltratar animais é crime. Pena: 3 meses a 1 ano de detenção e multa (Lei Federal 9605/98)
+            </p>
+          </div>
+
+          <div class="assinatura">
             <input type="text">
+            <p>de</p>
+            <input type="text">
+            <p>de</p>
+            <input type="text" name="" id="">
+
+            <div class="assinatura_doador">
+              <input type="text">
+              <label for="">Assinatura do Doador</label>
+
+              <input type="text">
+              <label for="">Assinatura do Adotante</label>
+            </div>
+
+            <div class="cpf">
+              <label for="">CPF:</label>
+              <input type="text">
+            </div>
           </div>
         </div>
-      </div>
 
-      <button class="butt">
-        <span>Enviar</span>
-      </button>
-    </form>
+        <button class="butt">
+          <span>Enviar</span>
+        </button>
+      </form>
+    </div>
+
   </main>
 
   <footer class="footer-pet" id="contato">
