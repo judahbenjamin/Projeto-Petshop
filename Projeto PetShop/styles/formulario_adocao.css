@@ -2,43 +2,12 @@ body {
     background-color:#f3d643 ;
 } 
 
-.Navbar {
+.navbar {
     background-color: white;
     display: flex;
-    padding: 30px;
+    padding: 10px;
     font-family: sans-serif;
     color: #f3d643;
-}
-
-.Navbar__Items {
-    display: flex;
-}
-
-.Navbar_Link_Menu a {
-    font-size: 20px;
-    margin-left: 12px;
-    text-decoration: none;
-    color: #c36721;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 700;
-}
-
-.Navbar__Link {
-    padding-right: 12px;
-}
-
-.Navbar__Items--right {
-    margin-left: auto;
-}
-
-.Navbar__Link .link {
-    text-decoration: none;
-    background-color: #c36721;
-    padding: 15px;
-    border-radius: 10px;
-    color: white;
-    font-family: "DM Sans", sans-serif;
-    font-weight: 700;
 }
 
 .voltar .butt_voltar {
@@ -55,6 +24,7 @@ body {
 }
 
 .titulo_principal h1 {
+    margin-top: 45px;
     margin-left: 20px;
     font-family: "DM Sans", sans-serif;
     font-weight: 600;
@@ -485,4 +455,207 @@ body {
 
 .marcar {
     display: flex;
+    margin-top: 6px;
+
+}
+
+.quatro1 .out {
+    margin-left: 25px;
+}
+
+.out .qual input {
+    margin-top: 6px;
+    margin-left: -150px;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.email {
+    margin-top: 10px;
+    display: flex;
+}
+
+.email_title {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.email input {
+    margin-left: 12px;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.bloco5 {
+    padding: 20px;
+    text-align: justify;
+    font-family: "DM Sans", sans-serif;
+}
+
+.subtexto {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    color: red;
+}
+
+.parte1 {
+    display: flex;
+    justify-content: space-between;
+    height: 38px;
+}
+
+.assinatura p {
+    margin-top: 8px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.parte1 input {
+    border-radius: 5px;
+}
+
+.assinatura_doador {
+    margin-top: 35px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.doador label {
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.doador input {
+    border-radius: 5px;
+    height: 35px;
+    width: 295px;
+}
+
+.adotante {
+    margin-left: 130px;
+}
+
+.adotante label {
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.adotante input {
+    border-radius: 5px;
+    height: 35px;
+    width: 295px;
+}
+
+.cpf {
+    margin-top: 35px;
+    display: flex;
+}
+
+#cpf_titulo {
+    font-family: "DM Sans", sans-serif;
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+}
+
+.cpf input {
+    margin-left: 15px;
+    border-radius: 5px;
+    width: 290px;
+    height: 35px;
+}
+
+.botao {
+    margin-top: 18px;
+   text-align: center;
+   font-size: 20px;
+}
+
+.botao .butt {
+    padding: 12px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #073376;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.botao .cancelar {
+    padding: 12px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.ajustar {
+    display: flex;
+    margin-left: 270px;
+}
+
+.imagem_final {
+    margin-left: -282px;
+    margin-top: 300px;
+}
+
+.footer-pet {
+    margin-bottom: 0;
+    margin-top: -200px;
+    background-color: #c36721;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-pet a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-pet p {
+    margin-bottom: 5px;
+}
+
+.footer-pet-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.footer-pet-div1, .footer-pet-div2, .footer-pet-div3, .footer-pet-div4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.footer-pet span {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-direitos {
+    width: calc(100% - 0px);
+    background-color: #073376;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
 }
