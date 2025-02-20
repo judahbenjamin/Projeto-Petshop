@@ -40,3 +40,449 @@ body {
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
 }
+
+.voltar .butt_voltar {
+    margin: 20px;
+    width: 115px;
+    height: 45px;
+    border-radius: 20px;
+    background-color: #073376;
+    border: none;
+    color: white;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.titulo_principal h1 {
+    margin-left: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    color: black;
+}
+
+.ajustar_formulario {
+    padding: 75px;
+}
+
+.formulario_adocao {
+    background-color: white;
+    padding: 45px;
+    border-radius: 35px;
+    width: 850px;
+}
+
+.titulo_formulario h2 {
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+    text-align: center;
+    font-size: 22px;
+}
+
+.bloco1 {
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.bloco1 .name {
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#name_adot {
+    width: 565px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.bloco1 .endereco {
+    margin-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#end_resid {
+    width: 540px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.ajust {
+    display: flex;
+}
+
+.bloco1 .bairro {
+    margin-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+} 
+
+#bairro {
+    width: 120px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.bloco1 .cidade {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#cidade {
+    width: 150px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.bloco1 .cep {
+    margin-left: 10px;
+    margin-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#cep {
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.parte4 {
+    display: flex;
+}
+
+.bloco1 .Cpf {
+    margin-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#cpf {
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 16px;
+}
+
+.bloco1 .Fone {
+    margin-left: 56px;
+    margin-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#fone {
+    width: 282px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 16px;
+}
+
+.bloco2 {
+    margin-top: 15px;
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+.bloco2 .dois1 {
+    display: flex;
+}
+
+.bloco2 .n_animal {
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#nome_animal {
+    width: 180px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.bloco2 .raca {
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#raca {
+    width: 215px;
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 3px;
+}
+
+.bloco2 .idade {
+    margin-left: 15px;
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#idade {
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 3px;
+    width: 40px;
+}
+
+.especie {
+    display: flex;
+    margin-top: 15px;
+}
+
+.n_especie {
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.space {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+
+.space .especie2 {
+    margin-left: 30px;
+}
+
+.dois2 .pelagem{
+    margin-left: 50px;
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+#pelagem_cor {
+    border: none;
+    border-radius: 5px;
+    padding: 2px;
+    margin-left: 3px;
+    width: 155px;
+}
+
+.n_sexo {
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.sexo {
+    display: flex;
+    margin-top: 5px;
+}
+
+.gen {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+
+.gen .genero2 {
+    margin-left: 30px;
+}
+
+.n_vacina {
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.option {
+    display: flex;
+    margin-top: 5px;
+}
+
+.op {
+    display: flex;
+    margin-left: 35px;
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 300;
+    color: black;
+}
+
+.op .option2, .op .option3 {
+    margin-left: 30px;
+}
+
+.raiva_ {
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    color: black;
+}
+
+.bloco3 {
+    margin-top: 15px;
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#n_porte {
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.options {
+    display: flex;
+    margin-top: 5px;
+}
+
+.options .pequeno, .medio, .grande , .gigante {
+    margin-left: 30px;
+}
+
+#castrado {
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+ 
+.cast {
+    margin-top: 5px;
+    display: flex;
+}
+
+.opt {
+    margin-top: 5px;
+    margin-left: 20px;
+}
+
+.yn {
+    display: flex;
+}
+
+.yn .n {
+    margin-left: 20px;
+}
+
+#vermf {
+    margin-top: 5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.vermifugado {
+    display: flex;
+}
+
+.ajust_v {
+    margin-top: 5px;
+    display: flex;
+    margin-left: 15px;
+}
+
+.ops .nn, .si {
+    margin-left: 20px;
+}
+
+#observacao {
+    margin-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+    margin-left: -265px;
+}
+
+.display {
+    display: flex;
+}
+
+.obs {
+    margin-top: 4;
+}
+
+.display input {
+    margin-left: 15px;
+    border: none;
+    border-radius: 5px;
+    width: 500px;
+}
+
+.bloco4 {
+    margin-top: 15px;
+    background-color: rgb(233, 233, 233);
+    padding: 20px;
+    border-radius: 25px;
+}
+
+#end {
+    margin-top: 10px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 700;
+    color: black;
+}
+
+.marcar {
+    display: flex;
+}
