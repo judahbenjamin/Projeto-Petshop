@@ -1,6 +1,6 @@
 body {
-    background-color:#f3d643 ;
-} 
+    background-color: #f3d643;
+}
 
 .Navbar {
     background-color: white;
@@ -39,4 +39,671 @@ body {
     color: white;
     font-family: "DM Sans", sans-serif;
     font-weight: 700;
+}
+
+.titulo_consulta h1 {
+    margin-top: 65px;
+    text-align: center;
+    font-size: 50px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
+.ajustar_formulario {
+    margin-top: 40px;
+    padding: 20px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+.formulario_veterinario {
+    background-color: white;
+    padding: 65px;
+    border-radius: 35px;
+    margin-left: 210px;
+    margin-right: 210px;
+    width: 1390px;
+}
+
+.title_form1 h2 {
+    background-color: #073376;
+    width: 450px;
+    height: 60px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.bloco1 {
+    padding-top: 25px;
+}
+
+.alinhar1 {
+    display: flex;
+}
+
+.nome label {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nome input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 505px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.cpf label {
+    margin-left: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.cpf input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.data_consulta label {
+    margin-left: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.data_consulta input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.endereco {
+    padding-top: 15px;
+}
+
+.endereco label {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.endereco input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 1050px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.alinhar2 {
+    padding-top: 15px;
+    display: flex;
+}
+
+.cidade_uf label {
+    font-family: "DM Sans", sans-serif;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.cidade_uf input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.uf label {
+    margin-left: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.uf input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 105px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.telefone_fix label {
+    margin-left: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.telefone_fix input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 185px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.celular label {
+    margin-left: 15px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.celular input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 185px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.bloco2 {
+    padding-top: 25px;
+}
+
+.title_form2 h2 {
+    background-color: #073376;
+    width: 450px;
+    height: 60px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.um {
+    padding-top: 15px;
+    display: flex;
+}
+
+.nome_animal label {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.especie label {
+    margin-left: -25px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.raca label {
+    margin-left: -25px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.sexo_animal label {
+    margin-left: -5px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.idade_animal label {
+    margin-left: -18px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.peso_animal label {
+    margin-left: -15px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.nome_animal input {
+    margin-left: 2px;
+    background-color: rgb(228, 228, 228);
+    width: 165px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.especie input {
+    margin-left: -25px;
+    background-color: rgb(228, 228, 228);
+    width: 165px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.raca input {
+    margin-left: -35px;
+    background-color: rgb(228, 228, 228);
+    width: 165px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.sexo_animal input {
+    margin-left: -10px;
+    background-color: rgb(228, 228, 228);
+    width: 165px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.idade_animal input {
+    margin-left: -18px;
+    background-color: rgb(228, 228, 228);
+    width: 165px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.peso_animal input {
+    margin-left: -15px;
+    background-color: rgb(228, 228, 228);
+    width: 165px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.dois {
+    padding-top: 15px;
+    display: flex;
+}
+
+.pelagem label {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.pelagem input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.procedencia label {
+    margin-left: 88px;
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.procedencia input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 400px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.text_center {
+    padding-top: 25px;
+}
+
+.text_center h2 {
+    background-color: #073376;
+    width: 1195px;
+    height: 60px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.queixa {
+    padding-top: 25px;
+}
+
+.queixa span {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.queixa .t {
+    padding-top: 15px;
+    border-radius: 25px;
+}
+
+.queixa .t textarea {
+    border-radius: 25px;
+    background-color: rgb(228, 228, 228);
+    border: none;
+    width: 1200px;
+}
+
+.anamnese_geral_inferior {
+    padding-top: 20px;
+}
+
+.historico .s2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.historico input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 840px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.alimentacao {
+    padding-top: 20px;
+}
+
+.alimentacao .s3 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.alimentacao input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 1020px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contactantes {
+    padding-top: 20px;
+}
+
+.contactantes .s4 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.contactantes input {
+    margin-left: 20px;
+    background-color: rgb(228, 228, 228);
+    width: 355px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.contactantes .s5 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.vacinacao {
+    padding-top: 25px;
+}
+
+.vacinacao .s6 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.vacinacao input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 1045px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.vermifugacao {
+    padding-top: 25px;
+}
+
+.vermifugacao .s7 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.vermifugacao input {
+    margin-left: 15px;
+    background-color: rgb(228, 228, 228);
+    width: 1005px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.anamnese {
+    padding-top: 25px;
+}
+
+.anamnese h2 {
+    background-color: #073376;
+    width: 1200px;
+    height: 60px;
+    border-radius: 25px;
+    text-align: center;
+    padding: 10px;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.final {
+    padding-top: 25px;
+}
+
+.quest_1 .sistema1 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.inp1 {
+    padding-top: 10px;
+}
+
+.inp1 input {
+    padding-top: 10px;
+    background-color: rgb(228, 228, 228);
+    width: 1200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.quest_2 {
+    padding-top: 25px;
+}
+
+.quest_2 .sistema2 {
+    font-family: "DM Sans", sans-serif;
+    font-size: 25px;
+    font-weight: 600;
+}
+
+.inp2 {
+    padding-top: 10px;
+}
+
+.inp2 input {
+    padding-top: 10px;
+    background-color: rgb(228, 228, 228);
+    width: 1200px;
+    height: 40px;
+    border-radius: 10px;
+    border: none;
+}
+
+.botao {
+    margin-top: 45px;
+    text-align: center;
+    font-size: 20px;
+    margin-right: 30px;
+}
+
+.botao .butt {
+    padding: 12px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: #073376;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.botao .cancelar {
+    padding: 12px;
+    width: 150px;
+    border: none;
+    border-radius: 10px;
+    background-color: red;
+    color: white;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.ajust {
+    margin-left: 10px;
+}
+
+.recomendacoes {
+    margin-top: 120px;
+}
+
+.recomendacoes .titulo_recomendacoes h2{
+    text-align: center;
+    font-size: 50px;
+    color: #073376;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 900;
+}
+
+.lista {
+    padding-top: 50px;
+    display: flex;
+    margin-left: 540px;
+    margin-right: 540px;
+    justify-content: space-between;
+}
+
+.recomendacoes .lista_recomendacoes1, .lista_recomendacoes2 {
+    font-size: 35px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 600;
+}
+
+.lista_serviços1 ul li {
+    padding-top: 15px;
+}
+
+.lista_serviços2 ul li {
+    padding-top: 15px;
+}
+
+.texto {
+    margin-top: 100px;
+    text-align: center;
+    font-size: 35px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.imagem_final{
+    margin: 100px;
+    text-align: center;
+}
+
+.imagem_final img {
+    width: 900px;
+    height: 600px;
+    border-radius: 35px;
+    border: 10px solid #073376;
+}
+
+.footer-pet {
+    margin-top: 160px;
+    background-color: #c36721;
+    color: white;
+    height: auto;
+    width: 100%;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+}
+
+.footer-pet a {
+    text-decoration: none;
+    color: white;
+}
+
+.footer-pet p {
+    margin-bottom: 5px;
+}
+
+.footer-pet-div {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    margin: auto;
+    align-items: stretch;
+    padding: 60px 10px 40px 10px;
+}
+
+.footer-pet-div1, .footer-pet-div2, .footer-pet-div3, .footer-pet-div4 {
+    display: flex;
+    width: calc(100% / 4 - 20px);
+    padding: 10px;
+}
+
+.footer-pet span {
+    font-size: 20px;
+    color: white;
+}
+
+.footer-direitos {
+    width: calc(100% - 0px);
+    background-color: #073376;
+    padding: 10px;
+    margin: 0px;
+    text-align: center;
 }
