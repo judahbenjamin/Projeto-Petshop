@@ -146,6 +146,23 @@ body {
     margin: 20px;
 }
 
+.alinhar_icones a:hover .icone_1, a:hover .icone_2, a:hover .icone_3{
+    background-color: white;
+}
+
+.alinhar_icones a {
+    text-decoration: none;
+}
+
+.mensagem {
+    padding-top: 10px;
+    color: #073376;
+    text-align: center;
+    font-size: 20px;
+    font-family: "DM Sans", sans-serif;
+    font-weight: 700;
+}
+
 .carrossel {
     margin-top: 200px;
     display: flex;
